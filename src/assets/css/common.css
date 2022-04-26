@@ -1,0 +1,109 @@
+/* 侧边栏 */
+.sub-title {}
+
+/* 对话框 */
+.el-dialog {}
+
+/* message对话框 */
+.el-message-box {
+    border: none;
+}
+
+.el-dialog .el-dialog__header,
+.el-message-box__header {
+    background: #536995;
+}
+
+.el-message-box__btns>.del {
+    background: #F45558 !important;
+}
+
+/* 对话框表单双行 */
+.twin-row .el-dialog__body {
+    padding: 127px 73px;
+}
+
+.twin-row .el-form {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.twin-row .el-form-item {
+    width: 50%;
+}
+
+.twin-row .el-form-item__content {
+    margin-right: 50px;
+}
+
+.twin-row .el-select,
+.dataFormClass .el-select {
+    width: 100%;
+}
+
+/* 按钮 */
+.el-button--primary {
+    background: #40beb9;
+    border    : #40beb9;
+}
+
+.el-button--primary:hover,
+.el-button--primary:focus {
+    background: #4cc4c0;
+    border    : #4cc4c0;
+}
+
+/* 表格头 */
+th {
+    font-size       : 0.17rem;
+    background-color: #ECECEC !important;
+    font-family     : Microsoft YaHei;
+    font-weight     : bold;
+    color           : #224661;
+}
+
+.el-dialog__title,
+.el-message-box__title {
+    color: #FFF;
+}
+
+.el-dialog__footer {
+    border-top: 1px solid #c7c7c7;
+}
+
+/* tabs */
+.el-tabs__item.is-active {
+    color: #40beb9;
+}
+
+.el-tabs__active-bar {
+    background-color: #40beb9
+}
+
+.el-tabs__item:hover {
+    color: #40beb9;
+}
+
+/* 外边距 */
+.ml-20 {
+    margin-left: 20px;
+}
+
+/* 选中的样式 */
+::selection {
+    color     : #fff;
+    background: #11928D;
+}
+
+/* 表格 */
+.current-row:hover>td {
+    background-color: #e5faf4 !important;
+}
+
+.el-table__row:hover>td {
+    background-color: #e5faf4 !important;
+}
+
+.el-table__body tr.current-row>td.el-table__cell {
+    background-color: #e5faf4 !important;
+}
